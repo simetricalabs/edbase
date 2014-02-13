@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: mtree_listings.xml 1572 2012-10-09 01:17:14Z cy $ -->
+<extension version="3.0" type="plugin" group="finder" method="upgrade">
+	<name>plg_finder_mtree_listings</name>
+	<version>3.0</version>
+	<creationDate>March 2012</creationDate>
+	<author>Mosets Consulting</author>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>mtree@mosets.com</authorEmail>
+	<authorUrl>http://www.mosets.com/</authorUrl>
+	<copyright>Mosets Consulting</copyright>
+	<description>PLG_FINDER_MTREE_LISTINGS_XML_DESCRIPTION</description>
+
+	<files>
+		<file plugin="mtree_listings">mtree_listings.php</file>
+	    	<filename>index.html</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_finder_mtree_listings.ini</language>
+	</languages>
+	
+	<params />
+</extension>

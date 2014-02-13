@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="publishing">
+		<fieldset name="publishing" label="COM_MTREE_PUBLISHING">
+			<field name="owner" type="text" default="" label="COM_MTREE_OWNER" />
+			<field name="alias" type="text" default="" label="COM_MTREE_ALIAS" />
+			<field name="link_approved" type="radio" default="" label="COM_MTREE_APPROVED">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="link_published" type="radio" default="" label="COM_MTREE_PUBLISHED">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="link_featured" type="radio" default="" label="COM_MTREE_FEATURED">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field name="link_created" type="calendar" format="%Y-%m-%d 00:00:00" default="" label="COM_MTREE_CREATED_DATE" />
+			<field name="publish_up" type="calendar" format="%Y-%m-%d 00:00:00" default="" label="COM_MTREE_START_PUBLISHING" />
+			<field name="publish_down" type="calendar" format="%Y-%m-%d 00:00:00" default="" label="COM_MTREE_FINISH_PUBLISHING" />
+			<field name="link_template" type="folderlist" directory="/components/com_mtree/templates" hide_none="1" default="" label="COM_MTREE_TEMPLATE" />
+			<field name="metakey" type="text" size="35" default="" label="COM_MTREE_META_KEYWORDS" />
+			<field name="metadesc" type="textarea" rows="4" cols="30" default="" label="COM_MTREE_META_DESCRIPTION" />
+			<field name="link_rating" type="text" size="10" default="" label="COM_MTREE_RATING" />
+			<field name="link_votes" type="text" size="10" default="" label="COM_MTREE_VOTES" />
+			<field name="link_hits" type="text" size="10" default="" label="COM_MTREE_HITS" />
+			<field name="link_visited" type="text" size="10" default="" label="COM_MTREE_VISITED" />
+		</fieldset>
+	</fields>
+	<fields name="params">
+		<fieldset name="parameters">
+			<field name="use_map" type="list" default="" label="COM_MTREE_SHOW_MAP">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+			</field>
+			<field name="show_print" type="list" default="" label="COM_MTREE_SHOW_PRINT">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_recommend" type="list" default="" label="COM_MTREE_SHOW_RECOMMEND">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_rating" type="list" default="" label="COM_MTREE_SHOW_RATING">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_review" type="list" default="" label="COM_MTREE_SHOW_REVIEW">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_visit" type="list" default="" label="COM_MTREE_SHOW_VISIT">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_contact" type="list" default="" label="COM_MTREE_SHOW_CONTACT_OWNER">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_report" type="list" default="" label="COM_MTREE_ALLOW_REPORT_LISTING" description="COM_MTREE_ALLOW_REPORT_LISTING_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field name="show_ownerlisting" type="list" default="" label="COM_MTREE_SHOW_LINK_TO_ALL_OWNER_LISTING">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+		</fieldset>
+	</fields>
+	<fields name="notes">
+		<fieldset name="notes">
+			<field name="internal_notes" type="textarea" rows="8" cols="30" default="" label="COM_MTREE_INTERNAL_NOTES" />
+		</fieldset>
+	</fields>
+</form>
